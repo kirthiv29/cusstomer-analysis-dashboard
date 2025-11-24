@@ -36,16 +36,8 @@ Just upload your dataset and the app will automatically:
 - AI-generated recommendations per cluster  
 
 ### 📊 **Visualizations (10 Types)**
-- Histogram  
-- Scatter plot  
-- Box plot  
-- Pair plot  
-- Heatmap  
-- Bar chart  
-- Line chart  
-- Area chart  
-- Violin plot  
-- Count plot  
+- Histogram  - Scatter plot  - Box plot  - Pair plot  - Heatmap
+- Bar chart  - Line chart  - Area chart  - Violin plot  - Count plot  
 
 ### 📄 **Exports**
 - PDF report with dataset summary, clusters & AI insights  
@@ -58,13 +50,8 @@ Just upload your dataset and the app will automatically:
 
 ## 🛠 Tech Stack
 
-- **Streamlit**
-- **Pandas**
-- **Seaborn**
-- **Matplotlib**
-- **Scikit-Learn**
-- **FPDF**
-- **OpenPyXL**
+- **Streamlit** - **Pandas** - **Seaborn** - **Matplotlib**
+- **Scikit-Learn** - **FPDF** - **OpenPyXL**
 
 ---
 
@@ -72,5 +59,5 @@ Just upload your dataset and the app will automatically:
 
 ### 1. Clone the repo
 ```bash
-git clone https://github.com/your-username/customer-analysis-dashboard.git
+git clone https://github.com/kirthiv29/customer-analysis-dashboard.git
 cd customer-analysis-dashboard
