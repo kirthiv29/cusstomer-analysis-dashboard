@@ -306,7 +306,9 @@ Cluster {cid} Overview:
     def generate_pdf():
         pdf = FPDF()
         pdf.add_page()
-        pdf.set_font("Arial", size=12)
+        pdf.add_font("DejaVu", "", "DejaVuSans.ttf", uni=True)
+        pdf.set_font("DejaVu", size=12)
+
 
         pdf.cell(200, 10, txt="Customer Analysis Report", ln=True, align='C')
 
@@ -366,3 +368,4 @@ Mean values:
 
 else:
     st.info("📁 Upload a file to begin.")
+
