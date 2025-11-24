@@ -1,4 +1,4 @@
-# 🧠 Customer Analysis Dashboard  
+# 🧠 Customer Segmentation Analysis Dashboard  
 ### A Fully Automated, AI-Powered Streamlit App for Customer Segmentation & Insights
 
 This project is a complete **end-to-end customer analytics dashboard** built with Streamlit.  
@@ -59,5 +59,5 @@ Just upload your dataset and the app will automatically:
 
 ### 1. Clone the repo
 ```bash
-git clone https://github.com/kirthiv29/customer-analysis-dashboard.git
-cd customer-analysis-dashboard
+git clone https://github.com/kirthiv29/customer-segmentation-analysis-dashboard.git
+cd customer-segmentation-analysis-dashboard
