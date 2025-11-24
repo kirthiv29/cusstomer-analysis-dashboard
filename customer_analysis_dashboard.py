@@ -313,7 +313,9 @@ Cluster {cid} Overview:
         # Summary
         pdf.set_font("Arial", 'B', 12)
         pdf.cell(0, 10, "Dataset Summary", ln=True)
-        pdf.set_font("Arial", size=11)
+        pdf.add_font("DejaVu", "", "DejaVuSans.ttf", uni=True)
+        pdf.set_font("DejaVu", size=12)
+
         pdf.multi_cell(0, 8, df.describe(include='all').to_string())
         pdf.ln(5)
 
@@ -364,5 +366,3 @@ Mean values:
 
 else:
     st.info("📁 Upload a file to begin.")
-
-
