@@ -36,8 +36,8 @@ Just upload your dataset and the app will automatically:
 - AI-generated recommendations per cluster  
 
 ### 📊 **Visualizations (10 Types)**
-- Histogram  - Scatter plot  - Box plot  - Pair plot  - Heatmap
-- Bar chart  - Line chart  - Area chart  - Violin plot  - Count plot  
+- Histogram  - Scatter plot  - Box plot  - Pair plot  - Heatmap - Bar chart
+  - Line chart  - Area chart  - Violin plot  - Count plot  
 
 ### 📄 **Exports**
 - PDF report with dataset summary, clusters & AI insights  
