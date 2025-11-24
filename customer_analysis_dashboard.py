@@ -74,14 +74,18 @@ if uploaded_file:
 
     st.write("### Head:")
     st.write(df.head())
-
+    
+    # FIXED df.info() block
     st.write("### Info:")
-    buffer = []
-    df.info(buf=buffer.append)
-    st.text("".join(buffer))
-
+    import io
+    buffer = io.StringIO()
+    df.info(buf=buffer)
+    info_str = buffer.getvalue()
+    st.text(info_str)
+    
     st.write("### Describe:")
     st.write(df.describe(include="all"))
+
 
     numeric_cols = df.select_dtypes(include='number').columns.tolist()
     non_numeric_cols = df.select_dtypes(exclude='number').columns.tolist()
@@ -359,3 +363,4 @@ Mean values:
 
 else:
     st.info("📁 Upload a file to begin.")
+
